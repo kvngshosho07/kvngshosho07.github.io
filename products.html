@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - CupCorn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Corsair_Logo.png" alt="CupCorn Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-login" onclick="window.location.href='login.html'">Account</button>
+                <button class="btn-cart" onclick="window.location.href='cart.html'"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h1>Our Products</h1>
+        <div class="product-grid">
+            <div class="product-card" id="ram">
+                <img src="https://images.unsplash.com/photo-1593640408182-31c228ca7c79" alt="RAM Products">
+                <h3>Dominator Platinum RGB</h3>
+                <p>Ultra-fast DDR5 Memory</p>
+                <button class="btn-buy" onclick="window.location.href='checkout.html'">Buy Now</button>
+            </div>
+            <div class="product-card" id="cooling">
+                <img src="https://images.unsplash.com/photo-1626218174358-7769486c4b79" alt="Cooling Systems">
+                <h3>Hydro X Series</h3>
+                <p>Advanced Liquid Cooling</p>
+                <button class="btn-buy" onclick="window.location.href='checkout.html'">Buy Now</button>
+            </div>
+            <div class="product-card" id="keyboard">
+                <img src="https://images.unsplash.com/photo-1624304462446-6482d56fb3b0" alt="Gaming Peripherals">
+                <h3>K100 RGB Keyboard</h3>
+                <p>Optical-Mechanical Switches</p>
+                <button class="btn-buy" onclick="window.location.href='checkout.html'">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 CupCorn. For cupping corns only.</p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
